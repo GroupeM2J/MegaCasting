@@ -1,4 +1,10 @@
-21/03/2014
-MANU : CharteGraphique
-Jo   : SqueletteDesFormulaires
-JB   : MenuPrincipal
+[21/03/2014] -> [21/03/2014]
+MANU : CharteGraphique          [EC]
+Jo   : SqueletteDesFormulaires  [OK]
+JB   : MenuPrincipal            [OK]
+
+[01/04/2014] -> [30/04/2014]
+MANU : Faire les Styles         [NC]
+Jo   : Faire les Affichages     [EC]
+JB   : Faire les Controlleurs   [EC]
+

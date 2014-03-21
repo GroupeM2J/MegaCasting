@@ -1,8 +1,38 @@
 <?php
+    
+    function restore ($pElement)
+    {
+        if(isset($_POST[$pElement]) == TRUE)
+        {
+            echo 'value="' , htmlentities($_POST[$pElement],ENT_QUOTES,'utf-8'),'"';
+        }
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+    }
+
+    function TestChiffre($Element)
+    {
+        $Element = trim($Element);
+    
+        if((  is_numeric($Element)== TRUE)||($Element == ''))
+        {
+            echo '<p> Veuiller renseigner une saisie valide. </p>';     
+        }
+     
+    }
+    
+
+    function TestLettre($Element)
+    {
+        $Element = trim($Element);
+    
+   
+        if(($Element == '')||(is_numeric($Element)== TRUE))
+        {
+            echo '<p> Veuiller renseigner une saisie valide. </p>';
+        } 
+            
+    }
+    
+    
+?>
 

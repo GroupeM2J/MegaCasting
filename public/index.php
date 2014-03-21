@@ -15,7 +15,8 @@
     }
     if (is_file($view) == TRUE) 
     {
-        
+        My_Template::AfficherHeader($_GET['page']);
         require $view;
+        My_Template::AfficherFooter();
     }
 
