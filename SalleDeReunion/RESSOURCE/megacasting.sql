@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 18, 2014 at 04:26 PM
+-- Generation Time: Mar 21, 2014 at 04:07 PM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.4.3
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `megacasting`
 --
-CREATE DATABASE `megacasting` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `megacasting`;
 
 -- --------------------------------------------------------
 
@@ -125,6 +123,23 @@ CREATE TABLE IF NOT EXISTS `offres` (
   KEY `fk_Offres_Metiers1_idx` (`FID_Met`),
   KEY `fk_Offres_References1_idx` (`FID_Ref`),
   KEY `fk_Offres_Contrats1_idx` (`FID_Con`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `profil`
+--
+
+CREATE TABLE IF NOT EXISTS `profil` (
+  `ID_Pro` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `NOM_Pro` varchar(30) NOT NULL,
+  `PRE_Pro` varchar(30) NOT NULL,
+  `AGE_Pro` tinyint(4) NOT NULL,
+  `SEX_Pro` tinyint(1) NOT NULL,
+  `TEL_Pro` char(10) DEFAULT NULL,
+  `MAI_Pro` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`ID_Pro`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
