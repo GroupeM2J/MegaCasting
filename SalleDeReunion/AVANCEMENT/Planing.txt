@@ -1,9 +1,9 @@
 [21/03/2014] -> [21/03/2014]
--Mettre au point la navigation du site	 		(JB  ) [EC]
+-Mettre au point la navigation du site	 	(JB  ) [EC]
 
--Creer tous les formulaires				 		(JO  ) [EC]
+-Creer tous les formulaires			(JO  ) [EC]
 
--Commencer la charte graphique			 		(Manu) [EC]
+-Commencer la charte graphique			(Manu) [EC]
 
 
 [01/04/2014] -> [30/04/2014]
@@ -12,6 +12,6 @@
  
 - Creer les affichages Html des infos de la DB  (JO)   [NC]
 
-- Creer les CSS									(Manu) [NC]
+- Creer les CSS					(Manu) [NC]
 
-- Automatiser les menus et forms				(JB)   [NC]
+- Automatiser les menus et forms		(JB)   [NC]
