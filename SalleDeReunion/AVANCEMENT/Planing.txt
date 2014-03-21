@@ -1,0 +1,17 @@
+[21/03/2014] -> [21/03/2014]
+-Mettre au point la navigation du site	 		(JB  ) [EC]
+
+-Creer tous les formulaires				 		(JO  ) [EC]
+
+-Commencer la charte graphique			 		(Manu) [EC]
+
+
+[01/04/2014] -> [30/04/2014]
+- Creer les fonctions Php pour recuperer les	(JB)   [NC]
+  infos de la DB
+ 
+- Creer les affichages Html des infos de la DB  (JO)   [NC]
+
+- Creer les CSS									(Manu) [NC]
+
+- Automatiser les menus et forms				(JB)   [NC]
